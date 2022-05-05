@@ -1,0 +1,21 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  user-select: none;
+  overscroll-behavior: none;
+  background: #DDC4DD;
+}
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+}

@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  margin: 24px auto;
+  border: 1px solid #c2c2c2;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 20px 20px -10px rgba(#000, 0.08);
+  background: #fff;
+
+  h4 {
+    margin: 0;
+    text-align: center;
+    background: #f8f8f8;
+    padding: 24px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  font-size: 20px;
+  line-height: 28px;
+  
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  appearance: none;
+  outline: none;
+  border: none;
+  height: 56px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: bold;
+  $bg: #edf6f9;
+  background: $bg;
+
+  &:hover {
+    background: darken($bg, 5%);
+  }
+  &:active {
+    background: darken($bg, 10%);
+  }
+}
